@@ -1,0 +1,216 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.1mm;
+    font-family: Helvetica neue;
+}
+
+#img-background {
+    padding:0;
+    margin:0;
+    object-fit: cover;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9737377e-a430-4d13-ad6c-874c54837c49/3113a053-6198-4cf8-ab83-f493618e6231/PL-en-20220111-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+}
+
+#img-header {
+    margin-top: 25px;
+    margin-left: 45px;
+    width: 167px;
+    height: 45px;
+}
+
+.div-section {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.div-header {
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0));
+    height: 90px;
+    background-color: rgba(0,0,0,0.5)
+}
+
+.div-form-container {
+    margin: auto;
+    width: 450px;
+    min-height: 660px;
+    margin-bottom: 80px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 4px;
+}
+
+.div-form {
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+    color: #fff;
+    width: 330px;
+}
+
+#form-header{  
+    font-size: 33px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#button-text {
+    color: #fff;
+    font-size: 16px;
+}
+
+.input {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.input-container{
+    
+    position: relative;
+    border: none;
+    width: 310px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+#email-or-phone,
+#password{
+    background-color: #333;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    background-color: ;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    padding-top: 12px;
+    font-size: 16px;
+    color: #fff;
+    transition: all 200ms;
+}
+
+#email-or-phone:focus {
+    border-bottom: 3px solid #e87c03;
+    background-color: #454545;
+    font-size: 16px;
+}
+
+#password:focus {
+    border-bottom: 3px solid #e87c03;
+    background-color: #454545;
+}
+
+.input-label{
+    position: absolute;
+    pointer-events: none;
+    top: 15px;
+    left: 20px;
+    font-size: 15px;
+    color: #8c8c8c;
+    transition: all 0.2s ease-in-out;
+}
+
+.input-container input:focus ~ .input-label,
+.input-container input:valid ~ .input-label{
+    top: 5px;
+    left: 20px;
+    font-size: 11px;
+}
+
+#sing-in-button{
+    background-color: #e50914;
+    border: none;
+    border-radius: 6px;
+    margin-top: 35px;
+    height: 50px;
+}
+
+.info-section {
+    margin-top: 70px;
+}
+
+.text {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+.text-section {
+    margin-top: 15px;
+}
+
+
+#footer{
+    padding-top: 20px;
+    height: 270px;
+    background-color: rgba(0,0,0,0.75);
+}
+ 
+
+.footer-text-section{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #8c8c8c;
+}
+
+#number {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+
+#facebook:hover,
+#needhelp:hover,
+#number:hover,
+#sign-up-now:hover,
+#learn:hover{
+    text-decoration: underline;
+}
+#facebook{
+    display: flexbox;
+}
+
+.footer-table a{
+    color: #757575;
+    text-decoration: none;
+}
+
+.footer-table a:hover {
+    text-decoration: underline;
+}
+
+table{
+    margin-top: 25px;
+    text-align: left;
+    vertical-align: bottom;
+    font-size: 13px;
+}
+
+td{
+    height: 30px;
+    padding-right: 100px;
+}
+
+#language{
+    -webkit-appearance: none;
+    margin-top: 30px;
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    color: #757575;
+    background-image: url(./images/2135808_earth_language_planet_icon.png);
+    background-position: left 10px  top 13px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+
+
+
