@@ -1,6 +1,7 @@
-# Netflix-Project-2
+# Netflix sign-in page clone  
 
-This prooject created for challenging my CSS skills.
+ * This prooject created for challenging my CSS skills.
 
 # Page
-https://mehmetgzn.github.io/Netflix-Project-2/
+
+ * https://mehmetgzn.github.io/Netflix-Project-2/
