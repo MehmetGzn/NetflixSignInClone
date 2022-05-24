@@ -2,5 +2,5 @@
 
 This prooject created for challenging my CSS skills.
 
-#Page
+# Page
 https://mehmetgzn.github.io/Netflix-Project-2/
