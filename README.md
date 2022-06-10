@@ -4,4 +4,4 @@
 
 # Page
 
- * https://mehmetgzn.github.io/Netflix-Sign-in-clone/
+ * https://mehmetgzn.github.io/NetflixSignInClone/
